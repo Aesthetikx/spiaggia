@@ -1,0 +1,13 @@
+module Spiaggia
+  module Input
+    class KeyPress
+      attr_reader key: Integer
+    end
+
+    class KeyRelease
+      attr_reader key: Integer
+    end
+
+    type input_event = KeyPress | KeyRelease
+  end
+end

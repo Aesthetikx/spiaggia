@@ -1,0 +1,16 @@
+module Spiaggia
+  module Input
+    class Stack
+      def initialize: -> void
+
+      def handlers: -> [Handler]
+
+      def register: (handler: Handler) { (Handler) -> void } -> Handler
+                  | (handler: Handler) -> Handler
+
+      def unregister: (handler: Handler) -> Handler
+
+      def handle: (event: input_event) -> bool
+    end
+  end
+end

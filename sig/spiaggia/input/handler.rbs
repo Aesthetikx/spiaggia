@@ -1,0 +1,13 @@
+module Spiaggia
+  module Input
+    module Handler
+      def handle_event: (event: input_event) -> bool
+
+      private
+
+      def handle_key_press: (key: Integer) -> bool
+
+      def handle_key_release: (key: Integer) -> bool
+    end
+  end
+end
