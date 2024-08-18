@@ -5,5 +5,4 @@ require_relative "spiaggia/version"
 
 module Spiaggia
   class Error < StandardError; end
-  # Your code goes here...
 end
