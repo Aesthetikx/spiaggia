@@ -1,0 +1,24 @@
+module Spiaggia
+  module Geometry
+    class Rectangle
+      attr_reader x1: Numeric
+      attr_reader y1: Numeric
+      attr_reader x2: Numeric
+      attr_reader y2: Numeric
+
+      def self.new: (x1: Numeric, y1: Numeric, x2: Numeric, y2: Numeric) -> instance
+
+      def width: () -> Numeric
+
+      def height: () -> Numeric
+
+      def overlaps?: (Rectangle) -> bool
+
+      def &: (Rectangle) -> Rectangle?
+
+      def |: (Rectangle) -> Rectangle
+
+      def flip: (Symbol?) -> Rectangle
+    end
+  end
+end
