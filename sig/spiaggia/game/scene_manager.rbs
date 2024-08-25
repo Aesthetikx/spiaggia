@@ -1,0 +1,15 @@
+module Spiaggia
+  module Game
+    class SceneManager
+      def initialize: -> void
+
+      def current_scene: -> Scene?
+
+      def push: (scene: Scene) -> Scene
+
+      def replace: (scene: Scene) -> Scene
+
+      def pop: -> Scene?
+    end
+  end
+end

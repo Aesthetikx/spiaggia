@@ -1,0 +1,13 @@
+module Spiaggia
+  module Game
+    class Scene
+      def start: () -> nil
+
+      def stop: () -> nil
+
+      def pause: () -> nil
+
+      def resume: () -> void
+    end
+  end
+end
