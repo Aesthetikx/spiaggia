@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "input/event"
-require_relative "input/handler"
-require_relative "input/stack"
+module Spiaggia
+  module Input
+    KeyPress =   Data.define :key
+    KeyRelease = Data.define :key
+  end
+end
