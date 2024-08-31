@@ -1,0 +1,30 @@
+module Spiaggia
+  module Game
+    class Clock
+      attr_reader start_tick: Time
+      attr_reader current_tick: Time
+      attr_reader last_tick: Time
+      attr_reader last_tock: Time
+      attr_reader frame_duration: Float
+      attr_reader draw_duration: Float
+      attr_reader inbetween_duration: Float
+      attr_reader elapsed: Float
+      attr_reader frame: Integer
+      attr_reader frame_rate: Float
+
+      def initialize: (target_frame_rate: Float) -> void
+
+      def tick!: () -> void
+
+      def tock!: () -> void
+
+      def new_second?: () -> bool
+
+      private
+
+      def start: () -> void
+
+      def frame_usage: () -> Float
+    end
+  end
+end
