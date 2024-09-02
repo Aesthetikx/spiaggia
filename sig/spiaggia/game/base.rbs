@@ -1,0 +1,17 @@
+module Spiaggia
+  module Game
+    class Base
+      attr_reader clock: Clock
+
+      def initialize: () -> void
+
+      def before_frame: () -> void
+
+      def update: () -> void
+
+      def render: () -> void
+
+      def after_frame: () -> void
+    end
+  end
+end

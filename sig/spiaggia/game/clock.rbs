@@ -12,7 +12,7 @@ module Spiaggia
       attr_reader frame: Integer
       attr_reader frame_rate: Float
 
-      def initialize: (target_frame_rate: Float) -> void
+      def initialize: (?target_frame_rate: Float) -> void
 
       def tick!: () -> void
 
