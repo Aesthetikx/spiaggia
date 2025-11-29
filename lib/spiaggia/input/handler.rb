@@ -14,11 +14,11 @@ module Spiaggia
 
       private
 
-      def handle_key_press key: # rubocop:disable Lint/UnusedMethodArgument
+      def handle_key_press key: # rubocop:disable Lint/UnusedMethodArgument, Naming/PredicateMethod
         false
       end
 
-      def handle_key_release key: # rubocop:disable Lint/UnusedMethodArgument
+      def handle_key_release key: # rubocop:disable Lint/UnusedMethodArgument, Naming/PredicateMethod
         false
       end
     end
