@@ -5,7 +5,7 @@ module Spiaggia
     # Manages a lifecycle of a stack of Scenes
     class SceneManager
       def initialize
-        @scenes = []
+        @scenes = [] # : Array[Scene]
       end
 
       def current_scene

@@ -20,7 +20,7 @@ module Spiaggia
       def initialize target_frame_rate: 60.0
         @target_frame_rate = target_frame_rate
         @frame = 0
-        @recent = []
+        @recent = [] # : Array[Float]
       end
 
       def tick!

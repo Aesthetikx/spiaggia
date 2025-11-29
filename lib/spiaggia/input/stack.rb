@@ -8,7 +8,7 @@ module Spiaggia
       attr_reader :handlers
 
       def initialize
-        @handlers = []
+        @handlers = [] # : Array[Handler]
       end
 
       def register handler:
